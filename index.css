@@ -27,172 +27,44 @@
     font-weight: 300;
 }
 
-.section-intro {
-    height: 820px;
-    background-image: url(static/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
 
-.section-intro h1 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 4em;
-    font-weight: 700;
+.bgimg-1 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("static/splash_happy.png");
+  height: 100%;
 }
 
-.section-intro header {
-    display: flex;
-    flex: 4;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
 
-.link-to-book-wrapper {
-    flex: 1;
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
-.about-section {
-    display: flex;
-    align-items: center;
-    background-color: #f3f3f3c0;
-    padding: 50px 30px;
-}
-
-.link-to-book {
-    color: #ffffff;
-    display: block;
-    border: 2px solid #ffffff;
-    padding: 5px 10px;
-}
-
-a.link-to-book:hover {
-    background-color: #ffffff;
-    color: #95999e;
-    text-decoration: none;
-}
-
-.about-section p,
-.about-section h3 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    font-family: 'Big Shoulders Text', cursive;
-    font-size: 1.8em;
-    text-transform: uppercase;
-}
-
-.carousel-inner {
-    height: 700px;
-}
-
-.row-flex {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-column-form {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 30px 20px;
-}
-
-.btn.btn-primary {
-    font-family: 'Big Shoulders Text', cursive;
-    color: #ffffff;
-    background-color: #95999e;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding: 5px 10px;
-    letter-spacing: 2px;
-    border: 0;
-}
-
-.btn.btn-primary:hover {
-    background-color: #747474;
-}
-.opening-time,
-.contact-adress {
-    flex: 1;
-    margin: 30px 20px;
-    font-size: 1.2em;
-}
-
-.form-group p {
-    font-size: 1.2em;
-}
-
-.opening-time p span,
-.contact-adress p span {
-    display: block;
-}
-
-@media (min-width:577px) and (max-width: 800px) {
-
-    .section-intro {
-        height: 500px;
-    }
-
-    .about-section p,
-    .about-section h3 {
-        font-size: 20px;
-    }
-
-    .carousel-inner {
-        height: auto;
-    }
-
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .section-intro {
-        height: 300px;
-    }
-
-    .about-section {
-        padding: 30px;
-    }
-
-    .section-intro h1 {
-        font-size: 2em;
-    }
-
-    .about-section p,
-    .about-section h3 {
-        font-size: 15px;
-    }
-
-    .carousel-inner {
-        height: auto;
-    }
-
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row-flex h3 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .form-group p {
-        font-size: 15px;
-    }
-
-    .opening-time p span,
-    .contact-adress p span {
-        font-size: 15px;
-        text-align: center;
-    }
-
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
 }
