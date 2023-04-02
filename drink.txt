@@ -1,0 +1,40 @@
+주류, 음료 (Liquor, Beverages)
+B1
+생맥주 (Draft Beer)
+머그피처
+Domestic
+Imported
+맥주피처
+B2
+병맥주 (Domestic Beer)
+Bud Light
+Miller Light
+Coors Light
+B3
+수입맥주 (Import Beer)
+Heineken
+Hite
+Corona
+S1
+소주 (Soju)
+S2
+칵테일 소주 (Cocktail Soju)
+S3
+요구르트 소주 (Yogurt Soju)
+S4 
+복분자 (Plum Wine)
+산사춘 (Rice Wine)
+백세주 (Rice Wine w/ Ginseng)
+
+D1
+음료수 (Soft Drinks)
+Coke
+Sprite
+D2
+차 (Tea)
+Hot / Cold Coffee
+Green Tea
+Jasmine Tea
+Roasted Barley Tea
+D3
+식혜 외 (Sikhye, etc.)
