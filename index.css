@@ -1,70 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
-
-/* font-family: 'Big Shoulders Text', cursive; */
-
-.nav-flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: absolute;
-    z-index: 100;
-    left: 0;
-    width: 100%;
-    padding: 0;
+@font-face {
+    font-family: poppins-medium;
+    src: url('static/Poppins-Medium.ttf');
 }
 
-.nav-flex-row li {
-    text-decoration: none;
-    list-style-type: none;
-    padding: 20px 15px;
-}
-
-.nav-flex-row li a {
-    font-family: 'Big Shoulders Text', cursive;
-    color: black;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-
-
-body, html {
+* {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins-medium;
 }
 
-.bgimg-1 {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("static/splash_happy.png");
-  height: 100%;
+.happy { 
+    height: 100%;
+    width: 100%;
+    background-image: url(static/splash_happy_2.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+.happy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+.logo {
+    color: #ca1544;
 }
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
+nav a {
+    color: white;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
