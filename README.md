@@ -5,4 +5,16 @@
 
 👉🏻 [Demo](https://yaninatrekhleb.github.io/restaurant-website/)
 
-![Demo](img/demo.gif)# Happy Pocha Website
+![Demo] Happy Pocha Website
+
+### Pocha
+
+- [ ] Fix Image Resizing
+- [ ] Nav Bar
+- [ ] Home-Page Text
+- [ ] Food-Page Text
+- [ ] Drink-Page Text
+- [ ] Nav Bar Mobile Friendly
+- [ ] Home-Page Mobile Friendly
+- [ ] Food-Page Mobile Friendly
+- [ ] Drink-Page Mobile Friendly
