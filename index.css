@@ -20,7 +20,7 @@
 }
 
 
-.splash {
+.top-nav {
      font-size: 20px;
      height: auto;
 }
@@ -67,7 +67,7 @@
      text-transform: uppercase;
 }
 
-.navvy {
+/*.navvy {
      align-items: center;
      box-sizing: border-box;
      display: flex;
@@ -76,7 +76,7 @@
      padding: 0 12px;
      top: 0 px;
      width: 100%;
-}
+}*/
  h2 {
      font-color: black;
 }
@@ -98,4 +98,67 @@
  nav ul li a:hover{
      color: #ca1544;
      transition: .3s;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10;
+    }
+    
+    nav a {
+        display: block;
+        width: 100%;
+        border-bottom: none;
+    }
+    
+    nav a:hover {
+        font-color: red;
+    }
+    
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        height: 20px;
+    }
+    .nav-flex {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+    }
+    .nav-flex a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 1px solid #666;
+    }
+    .nav-flex a:hover {
+        background-color: #555;
+    }
+    .splash-about {
+         font-size: 15px;
+         height: auto;
+         background-color: #a6a491;
+     }
+    .show {
+        display: block;
+    }
 }

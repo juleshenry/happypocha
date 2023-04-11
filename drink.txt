@@ -1,10 +1,10 @@
 주류, 음료 (Liquor, Beverages)
 B1
 생맥주 (Draft Beer)
-머그피처
+머그피처 (Mug Pitcher)
 Domestic
 Imported
-맥주피처
+맥주피처 (Beer Pitcher)
 B2
 병맥주 (Domestic Beer)
 Bud Light

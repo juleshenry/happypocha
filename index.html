@@ -43,17 +43,16 @@
   </ul>
 </nav> -->
 
-<div class="splash">
+<div class="top-nav">
   <nav class="happy-nav">
     <h2 class="logo">Happy&nbsp;<span>Pocha</span></h2>
-    <a>
+    <a class = "nav-flex">
       <ul align="center">
         <li><a href="index.html">Home</a></li>
         <li><a href="food.html">Food</a></li>
         <li><a href="drink.html">Drink</a></li>
       </ul>
     </a>
-    <!-- <a>Call</a> -->
   </nav>
 </div>
 
@@ -68,6 +67,13 @@
   <p align="center">Sunday: Closed</p><br>
   <p align="center">9200 N Lamar #101, Austin 78753</p>
 </div>
-
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav_flex = document.querySelector('.nav-flex');
+    
+    hamburger.addEventListener('click', () => {
+      nav_flex.classList.toggle('show');
+    });
+  </script>
 </body>
 </html> 
