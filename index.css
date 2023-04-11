@@ -7,8 +7,15 @@
      padding: 0;
      box-sizing: border-box;
      font-family: poppins-medium;
-     background-color: #a6a491;
+     background-color: #a6a4bb;
 }
+
+h1 {
+  color: white;
+  text-shadow: 0 0 3px black, 0 0 1px black;     
+  text-align: center;
+}
+
 
 .happy-img {
      height: auto;
@@ -27,7 +34,7 @@
 .splash-about {
      font-size: 30px;
      height: auto;
-     background-color: #a6a491;
+     background-color: #a6a4bb;
 }
 
 .happy-nav {
@@ -66,17 +73,9 @@
      text-transform: uppercase;
 }
 
-/*.navvy {
-     align-items: center;
-     box-sizing: border-box;
-     display: flex;
-     height: 170px;
-     left: 0;
-     padding: 0 12px;
-     top: 0 px;
-     width: 100%;
-}*/
- h2 {
+
+
+h2 {
      font-color: black;
 }
  nav a {
@@ -154,8 +153,7 @@
     }
     .splash-about {
          font-size: 15px;
-         height: auto;
-         background-color: #a6a491;
+         height: auto;\
      }
     .show {
         display: block;
