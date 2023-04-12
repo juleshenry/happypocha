@@ -106,6 +106,15 @@ h2 {
     right: 10px;
 }
 
+.menu-sep {
+  border: none;
+  height: 3px;
+  background-color: #aa0016;
+  margin: 20px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
