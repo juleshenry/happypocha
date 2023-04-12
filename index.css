@@ -25,7 +25,6 @@ h1 {
      align:center;
 }
 
-
 .top-nav {
      font-size: 20px;
      height: auto;
@@ -94,18 +93,6 @@ h2 {
      transition: .3s;
 }
 
-.hamburger {
-    display: none;
-    cursor: pointer;
-    padding: 5px;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
 .menu-sep {
   border: none;
   height: 3px;
@@ -131,12 +118,6 @@ h2 {
     nav a:hover {
         font-color: red;
     }
-    
-    .hamburger {
-        display: block;
-        font-size: 30px;
-        height: 20px;
-    }
     .nav-flex {
         display: none;
         position: absolute;
@@ -157,10 +138,19 @@ h2 {
         background-color: #555;
     }
     .splash-about {
-         font-size: 15px;
+         font-size: 20px;
          height: auto;\
      }
     .show {
         display: block;
+    }
+    .happy-img {
+        height: auto;
+        overflow: hidden;
+        width: 150%;
+        margin: 0 -25%;
+/*        background-size: cover;*/
+        background-position: center;
+        align:center;
     }
 }

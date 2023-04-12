@@ -10,6 +10,12 @@
   padding: 0 30px; /* add left and right padding */
 }
 
+.liquor-columns {
+  column-count: 2;
+  column-gap: 20px;
+  padding: 0 30px; /* add left and right padding */
+}
+
 .dessert-columns {
   column-count: 4;
   column-gap: 20px;
