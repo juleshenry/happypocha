@@ -18,12 +18,14 @@
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 20px;
+
 }
 
 .col {
   flex-basis: calc(100% / 3);
   padding: 20px;
   text-align: left;  /*Menu alignment*/
+/*  color: green;*/
 }
 
 .col-bookend {
