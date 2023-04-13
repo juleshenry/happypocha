@@ -7,7 +7,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: poppins-medium;
-     background-color: #a6a4bb;
+     background-color: #c3cccb;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 .splash-about {
      font-size: 30px;
      height: auto;
-     background-color: #a6a4bb;
+     background-color: #c3cccb;
 }
 
 .happy-nav {
@@ -72,10 +72,13 @@ h1 {
 
 h2 {
      font-color: black;
+     text-align: center;
 }
+
  nav a {
      color: black;
 }
+
  nav ul li{
      flex-direction: row;
      text-decoration: none;
@@ -97,6 +100,8 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
+
+
 .menu-sep {
   border: none;
   height: 3px;
@@ -143,7 +148,7 @@ h2 {
     }
     .splash-about {
          font-size: 20px;
-         height: auto;\
+         height: auto;
      }
     .show {
         display: block;
