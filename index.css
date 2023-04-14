@@ -10,13 +10,6 @@
      background-color: #c3cccb;
 }
 
-h1 {
-  color: white;
-  text-shadow: 0 0 3px black, 0 0 1px black;     
-  text-align: center;
-}
-
-
 .happy-img {
      height: auto;
      width: 100%;
@@ -62,37 +55,44 @@ h1 {
      list-style-type: none;
      padding: 20px 15px;
 }
+
 .nav-flex-row li a {
      color: #ffffff;
      font-size: 1.5em;
      text-transform: uppercase;
 }
 
-
-
-h2 {
-     font-color: black;
-     text-align: center;
+h1 {
+  color: white;
+  text-shadow: 0 0 3px black, 0 0 1px black;     
+  text-align: center;
 }
 
- nav a {
+h2 {
+    font-color: black;
+    text-align: center;
+    text-shadow: 0 0 3px white, 0 0 1px white;     
+}
+
+nav a {
      color: black;
 }
 
- nav ul li{
+nav ul li{
      flex-direction: row;
      text-decoration: none;
      display: inline-block;
      padding: 10px 20px;
 }
 
- nav ul li a{
-     color: black;
+nav ul li a{
+     color: #ca1544;
      text-decoration: none;
      font-weight: bold;
 }
- nav ul li a:hover{
-     color: #ca1544;
+
+nav ul li a:hover{
+     color: white;
      transition: .3s;
 }
 
@@ -100,7 +100,6 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
-
 
 .menu-sep {
   border: none;
@@ -123,10 +122,11 @@ h2 {
         width: 100%;
         border-bottom: none;
     }
-    
+
     nav a:hover {
         font-color: red;
     }
+
     .nav-flex {
         display: none;
         position: absolute;
@@ -135,6 +135,7 @@ h2 {
         background-color: #333;
         width: 100%;
     }
+
     .nav-flex a {
         display: block;
         padding: 10px;
@@ -143,22 +144,25 @@ h2 {
         text-align: center;
         border-bottom: 1px solid #666;
     }
+
     .nav-flex a:hover {
         background-color: #555;
     }
+
     .splash-about {
          font-size: 20px;
          height: auto;
      }
+
     .show {
         display: block;
     }
+
     .happy-img {
         height: auto;
         overflow: hidden;
         width: 150%;
         margin: 0 -25%;
-/*        background-size: cover;*/
         background-position: center;
         align:center;
     }

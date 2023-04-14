@@ -8,14 +8,12 @@
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 20px;
-
 }
 
 .col {
   flex-basis: calc(100% / 3);
   padding: 20px;
   text-align: left;  /*Menu alignment*/
-/*  color: green;*/
 }
 
 .col-bookend {
@@ -24,8 +22,9 @@
   text-align: center;  /*Menu alignment*/
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .col {
     flex-basis: calc(50% - 10px);
+    color: green;
   }
 }
