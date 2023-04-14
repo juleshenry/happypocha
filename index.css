@@ -38,30 +38,6 @@
      padding-right: 10%;
 }
 
-.nav-flex-row {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     position: absolute;
-     z-index: 100;
-     left: 0;
-     width: 100%;
-     height: 100px;
-     padding: 0;
-}
-
-.nav-flex-row li {
-     text-decoration: none;
-     list-style-type: none;
-     padding: 20px 15px;
-}
-
-.nav-flex-row li a {
-     color: #ffffff;
-     font-size: 1.5em;
-     text-transform: uppercase;
-}
-
 h1 {
   color: white;
   text-shadow: 0 0 3px black, 0 0 1px black;     
@@ -78,11 +54,16 @@ nav a {
      color: black;
 }
 
+ul {
+    text-align: center;
+}
+
 nav ul li{
      flex-direction: row;
      text-decoration: none;
      display: inline-block;
      padding: 10px 20px;
+
 }
 
 nav ul li a{
@@ -110,7 +91,7 @@ nav ul li a:hover{
   margin-right: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
@@ -121,32 +102,11 @@ nav ul li a:hover{
         display: block;
         width: 100%;
         border-bottom: none;
+        text-align: center;
     }
 
     nav a:hover {
         font-color: red;
-    }
-
-    .nav-flex {
-        display: none;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        background-color: #333;
-        width: 100%;
-    }
-
-    .nav-flex a {
-        display: block;
-        padding: 10px;
-        color: #fff;
-        font-size: 18px;
-        text-align: center;
-        border-bottom: 1px solid #666;
-    }
-
-    .nav-flex a:hover {
-        background-color: #555;
     }
 
     .splash-about {

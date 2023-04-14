@@ -7,12 +7,12 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .col {
   flex-basis: calc(100% / 3);
-  padding: 20px;
+  padding: 10px;
   text-align: left;  /*Menu alignment*/
 }
 
@@ -22,9 +22,21 @@
   text-align: center;  /*Menu alignment*/
 }
 
-@media screen and (max-width: 768px) {
+/*description*/
+.yummy {
+  font-style: italic;
+  font-size: 15px;
+  color: green;
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
   .col {
-    flex-basis: calc(50% - 10px);
+    flex-basis: calc(50% - 50px);
     color: green;
+
   }
 }
