@@ -37,6 +37,5 @@
   .col {
     flex-basis: calc(50% - 50px);
     color: green;
-
   }
 }

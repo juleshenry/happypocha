@@ -24,18 +24,18 @@
 }
 
 .splash-about {
-     font-size: 30px;
-     height: auto;
-     background-color: #c3cccb;
+    font-size: 30px;
+    height: auto;
+    background-color: #c3cccb;
 }
 
 .happy-nav {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     padding-top: 40px;
-     padding-left: 10%;
-     padding-right: 10%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 20px;
+ padding-left: 10%;
+ padding-right: 10%;
 }
 
 h1 {
@@ -56,6 +56,7 @@ nav a {
 
 ul {
     text-align: center;
+    white-space:nowrap
 }
 
 nav ul li{
@@ -63,6 +64,7 @@ nav ul li{
      text-decoration: none;
      display: inline-block;
      padding: 10px 20px;
+
 
 }
 
@@ -82,6 +84,7 @@ nav ul li a:hover{
     color: inherit;
 }
 
+/*food and drink*/
 .menu-sep {
   border: none;
   height: 3px;
@@ -91,26 +94,19 @@ nav ul li a:hover{
   margin-right: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
         padding: 10;
     }
     
-    nav a {
-        display: block;
-        width: 100%;
-        border-bottom: none;
-        text-align: center;
-    }
-
-    nav a:hover {
-        font-color: red;
+    nav ul li a{
+      font-size: 15px;
     }
 
     .splash-about {
-         font-size: 20px;
+         font-size: 15px;
          height: auto;
      }
 
