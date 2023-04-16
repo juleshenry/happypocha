@@ -1,6 +1,8 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px; /* set padding to 20px left and right */
 }
 
 .row {
@@ -29,6 +31,7 @@
   color: green;
 }
 
+
 @media screen and (max-width: 650px) {
   .row {
     flex-wrap: nowrap;
@@ -38,4 +41,5 @@
     flex-basis: calc(50% - 50px);
     color: green;
   }
+
 }

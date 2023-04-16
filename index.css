@@ -10,8 +10,10 @@
      background-color: #c3cccb;
 }
 
+.happy-img-container{
+    height: auto;
+}
 .happy-img {
-     height: auto;
      width: 100%;
      background-size: cover;
      background-position: center;
@@ -60,12 +62,10 @@ ul {
 }
 
 nav ul li{
-     flex-direction: row;
-     text-decoration: none;
-     display: inline-block;
-     padding: 10px 20px;
-
-
+    flex-direction: row;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 nav ul li a{
@@ -90,8 +90,8 @@ nav ul li a:hover{
   height: 3px;
   background-color: #aa0016;
   margin: 20px 0;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 650px) {
@@ -121,5 +121,17 @@ nav ul li a:hover{
         margin: 0 -25%;
         background-position: center;
         align:center;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+    
+    .menu-sep {
+        height: 2px;
     }
 }

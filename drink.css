@@ -1,19 +1,8 @@
-.beer-columns {
+.alcohol-columns {
   column-count: 3;
   column-gap: 20px;
   padding: 0 30px; /* add left and right padding */
-}
-
-.soju-columns {
-  column-count: 3;
-  column-gap: 20px;
-  padding: 0 30px; /* add left and right padding */
-}
-
-.liquor-columns {
-  column-count: 2;
-  column-gap: 20px;
-  padding: 0 30px; /* add left and right padding */
+  break-inside: avoid; 
 }
 
 .dessert-columns {
@@ -27,4 +16,5 @@
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
   break-inside: avoid-column;
+  text-align: left;
 }
