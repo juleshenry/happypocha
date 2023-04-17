@@ -18,3 +18,13 @@
   break-inside: avoid-column;
   text-align: left;
 }
+
+
+@media screen and (max-width: 650px) {
+  .dessert-columns {
+    column-count: 1;
+  }
+  .alcohol-columns {
+    column-count: 1;
+  }
+}

@@ -81,7 +81,7 @@ nav ul li a:hover{
 
 .number {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 /*food and drink*/
@@ -94,6 +94,16 @@ nav ul li a:hover{
   margin-right: 50px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.iframe {
+    width: 600;
+    height: 450;
+    border: 0;
+}
 @media screen and (max-width: 650px) {
     nav {
         flex-direction: column;
@@ -133,5 +143,9 @@ nav ul li a:hover{
     
     .menu-sep {
         height: 2px;
+    }
+    .iframe {
+        max-width: 100%;
+        height: 112;
     }
 }
