@@ -42,14 +42,14 @@
 
 h1 {
   color: white;
-  text-shadow: 0 0 3px black, 0 0 1px black;     
+  text-shadow: 0 0 6px black, 0 0 1px black;     
   text-align: center;
 }
 
 h2 {
     font-color: black;
     text-align: center;
-    text-shadow: 0 0 3px white, 0 0 1px white;     
+    text-shadow: 0 0 5px white, 0 0 5px white;     
 }
 
 nav a {
@@ -79,9 +79,12 @@ nav ul li a:hover{
      transition: .3s;
 }
 
+.subtitle {
+    color: #ca1544;
+}
 .number {
     text-decoration: none;
-    color: white;
+    color: #ca1544;
 }
 
 /*food and drink*/
@@ -94,16 +97,22 @@ nav ul li a:hover{
   margin-right: 50px;
 }
 
+/*food and drink*/
+.menu-sep-mobile {
+  border: none;
+/*  background-color: white;*/
+  height: 3px;
+  margin: 20px 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
 .footer {
     display: flex;
     justify-content: center;
 }
 
-.iframe {
-    width: 600;
-    height: 450;
-    border: 0;
-}
 @media screen and (max-width: 650px) {
     nav {
         flex-direction: column;

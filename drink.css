@@ -18,7 +18,9 @@
   break-inside: avoid-column;
   text-align: left;
 }
-
+.menu-sep-mobile {
+  visibility: hidden;
+}
 
 @media screen and (max-width: 650px) {
   .dessert-columns {
@@ -26,5 +28,12 @@
   }
   .alcohol-columns {
     column-count: 1;
+  }
+  .drink-menu {
+    text-align: center;
+  }
+
+  .menu-sep-mobile, .menu-sep{
+    visibility: hidden;
   }
 }
