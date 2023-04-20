@@ -33,7 +33,7 @@
 .col-bookend {
   flex-basis: calc(100% / 3);
   padding: 20px;
-  text-align: center;  /*Menu alignment*/
+  text-align: center;  
 }
 
 .happy-img-container{
@@ -67,10 +67,9 @@
  padding-right: 10%;
 }
 
-/*description*/
 .yummy {
   font-style: italic;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: thin;
   color: #888888;
 }
@@ -155,9 +154,9 @@ nav ul li a:hover{
 }
 
 .drink-menu {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
   break-inside: avoid-column;
   text-align: left;
 }
