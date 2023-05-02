@@ -1,0 +1,4 @@
+- Center Map
+- More Center in General
+- Double Menu, Smaller Text
+- Keep Descriptions
